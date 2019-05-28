@@ -1,12 +1,11 @@
 #-------------------------------------------------------------------------------
-# Name:        module3
+# Name:        Test
 # Purpose:
 #
-# Author:      XNETT-IP
+# Author:      Horatio
 #
 # Created:     28/05/2019
-# Copyright:   (c) XNETT-IP 2019
-# Licence:     <your licence>
+
 #-------------------------------------------------------------------------------
 
 import operator
@@ -29,7 +28,7 @@ def read_file(file_path):
     for item in words:
         j=e.keys()
         if item in j:
-            e[item] +=1
+            e[item] +=1   # Miss Out the   += that why i had 1 as my result
         else:
             e[item]=1
 
